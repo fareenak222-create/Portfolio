@@ -34,14 +34,14 @@ This website is fully responsive and works on all screen sizes using CSS Flexbox
 ---
 
 ## 🌐 Live Demo
-(Add your GitHub Pages link here)
+(https://github.com/fareenak222-create)
 
 ---
 
 ## 👩‍💻 Author
 - Your Name: Fareena Khan  
-- LinkedIn: (paste your LinkedIn link here)  
-- GitHub: (paste your GitHub profile link here)
+- LinkedIn: (LinkedIn: https://www.linkedin.com/in/fareena-khan-1bb7a0410/)  
+- GitHub: (https://github.com/fareenak222-create)
 
 ---
 
