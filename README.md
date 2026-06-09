@@ -1,49 +1,50 @@
-# 🌐 My Portfolio Website
+# 🌐 Fareena Khan - Portfolio Website
 
-This is my personal responsive portfolio website built using HTML, CSS, and JavaScript.  
-It showcases my skills, projects, and contact information.
+This is my personal responsive portfolio website built using HTML, CSS, and JavaScript.
+
+It showcases my skills, projects, and contact information as a Front-End Developer.
 
 ---
 
 ## 🚀 Features
-- Fully responsive design (mobile, tablet, desktop)
-- Clean and modern UI
+- Fully responsive (mobile, tablet, desktop)
+- Modern dark theme UI
 - Smooth navigation
-- Project showcase section
+- Animated hero section
+- Projects showcase
+- Skills section
 - Contact section
+- Resume download option
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- Font Awesome Icons
 
 ---
 
-## 📱 Responsive Design
-This website is fully responsive and works on all screen sizes using CSS Flexbox and Media Queries.
+## 📂 Projects Included
+- Portfolio Website
+- Tables & Media Project
+- Student Tasks Collection
 
 ---
 
-## 📂 How to Use
-1. Clone this repository
-2. Open `index.html` in your browser
-3. Or view live via GitHub Pages
+## 📄 Resume
+Download resume from the website (Hero section button).
 
 ---
 
-## 🌐 Live Demo
-(https://github.com/fareenak222-create)
+## 🌐 Live Website
+((https://github.com/fareenak222-create))
 
 ---
 
 ## 👩‍💻 Author
-- Your Name: Fareena Khan  
-- LinkedIn: (LinkedIn: https://www.linkedin.com/in/fareena-khan-1bb7a0410/)  
-- GitHub: (https://github.com/fareenak222-create)
-
----
-
-## 📌 Note
-This project is part of my learning journey in web development.
+**Fareena Khan**  
+- GitHub: https://github.com/fareenak222-create  
+- LinkedIn: https://www.linkedin.com/in/fareena-khan-1bb7a0410/  
+- Upwork: https://www.upwork.com/freelancers/~01e88b0730694c8b6f

@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fareena Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fareena Khan | Front-End Developer</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
 
-  <nav>
-    <div class="logo"><img width="100px" src="images/logo.gif" alt="logo"></div>
+  <nav class="navbar">
 
-    <ul class="nav-links">
+    <div class="logo">
+      Fareena<span>.</span>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
+    <div class="menu-btn" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+
   </nav>
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
 
   <section class="hero" id="home">
 
     <div class="hero-text">
 
-      <h1>Hi, I'm <span>Fareena</span></h1>
+      <h1>Hi, I'm <span>Fareena Khan</span></h1>
+      <h2 id="typing-text"></h2>
 
-      <h2>Front-End Developer</h2>
+      <h2>Front-End Developer & Web Designer</h2>
 
       <p>
-        I am currently learning web development and building responsive websites using HTML, CSS, Bootstrap, JavaScript, and Git.
+        I build responsive, modern and user-friendly websites using
+        HTML, CSS, JavaScript, Bootstrap, Git and GitHub.
+        I am continuously improving my skills through real projects
+        and practical learning.
       </p>
 
-      <a href="#projects" class="btn">View Projects</a>
+      <div class="hero-buttons">
+
+        <a href="#projects" class="btn">
+          View Projects
+        </a>
+
+        <a href="fareena-khan-resume.pdf" download class="btn btn-outline">
+          Download Resume
+        </a>
+
+      </div>
 
     </div>
 
     <div class="hero-image">
-      <img src="images/coding.jpg" alt="">
+      <img src="images/coding.jpg" alt="Developer">
     </div>
 
   </section>
 
   <!-- ABOUT -->
 
-  <section class="about" id="about">
+  <section class="about reveal" id="about">
 
-    <h2 class="title">About Me</h2>
+    <h2 class="section-title">About Me</h2>
 
     <p>
-      I am an ACCP-AI student passionate about front-end web development. I enjoy creating modern responsive websites and improving my coding skills through projects.
+      I am Fareena Khan, an ACCP-AI student and aspiring Front-End Developer.
+      I enjoy building responsive websites and improving my skills through
+      practical projects. My goal is to create clean, modern and
+      user-friendly web experiences while growing as a professional developer.
     </p>
 
   </section>
 
   <!-- SKILLS -->
 
-  <section class="skills" id="skills">
+  <section class="skills reveal" id="skills">
 
-    <h2 class="title">My Skills</h2>
+    <h2 class="section-title">Skills</h2>
 
     <div class="skills-container">
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>HTML5</h3>
+        <p>Structure & Semantic Markup</p>
       </div>
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>CSS3</h3>
+        <p>Responsive Layouts & Styling</p>
       </div>
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>Bootstrap</h3>
+        <p>Fast Responsive Design</p>
       </div>
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>JavaScript</h3>
+        <p>Interactive Web Features</p>
       </div>
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>Git</h3>
+        <p>Version Control</p>
       </div>
 
-      <div class="skill-box">
+      <div class="skill-card">
         <h3>GitHub</h3>
+        <p>Project Hosting & Collaboration</p>
       </div>
 
     </div>
@@ -97,39 +132,65 @@
 
   <!-- PROJECTS -->
 
-  <section class="projects" id="projects">
+  <section class="projects reveal" id="projects">
 
-    <h2 class="title">Projects</h2>
+    <h2 class="section-title">Projects</h2>
 
     <div class="project-container">
 
       <div class="project-card">
 
-        <img src="images/project1.jpg" alt="">
+        <img src="images/project1.jpg" alt="Portfolio Website">
 
-        <h3>Portfolio Website</h3>
+        <div class="project-content">
 
-        <p>Responsive portfolio website using HTML and CSS.</p>
+          <h3>Portfolio Website</h3>
 
-      </div>
+          <p>
+            Responsive portfolio website built using
+            HTML, CSS and JavaScript.
+          </p>
 
-      <div class="project-card">
-
-        <img src="images/project2.jpg" alt="">
-
-        <h3>To-Do App</h3>
-
-        <p>Simple task management app using JavaScript.</p>
+        </div>
 
       </div>
 
       <div class="project-card">
 
-        <img src="images/project3.jpg" alt="">
+        <img src="images/project2.jpg" alt="Tables & Media">
 
-        <h3>Calculator</h3>
+        <div class="project-content">
 
-        <p>Basic calculator using JavaScript.</p>
+          <h3>Tables & Media Project</h3>
+
+          <p>
+            Web page demonstrating responsive tables,
+            media elements and layouts.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="images/project3.jpg" alt="Student Tasks">
+
+        <div class="project-content">
+
+          <h3>Student Tasks Collection</h3>
+
+          <p>
+            Practice projects including Flexbox,
+            Grid, Forms and Responsive Design.
+          </p>
+
+          <div class="project-buttons">
+            <a href="#" class="btn-small">Live</a>
+            <a href="https://github.com/..." class="btn-small">Code</a>
+          </div>
+
+        </div>
 
       </div>
 
@@ -139,25 +200,62 @@
 
   <!-- CONTACT -->
 
-  <section class="contact" id="contact">
+  <section class="contact reveal" id="contact">
 
-    <h2 class="title">Contact Me</h2>
+    <h2 class="section-title">Let's Connect</h2>
 
-    <p>Email: fareenak222@gmail.com</p>
+    <div class="contact-box">
 
-    <p>GitHub: github.com/fareenak222-create</p>
+      <p>
+        <i class="fas fa-envelope"></i>
+        fareenak222@gmail.com
+      </p>
 
-    <p>LinkedIn: https://www.linkedin.com/in/fareena-khan-1bb7a0410/</p>
+      <p>
+        <i class="fab fa-github"></i>
+        https://github.com/fareenak222-create
+      </p>
+
+      <p>
+        <i class="fab fa-linkedin"></i>
+        https://www.linkedin.com/in/fareena-khan-1bb7a0410/
+      </p>
+
+      <p>
+        <i class="fas fa-briefcase"></i>
+        Upwork Profile
+      </p>
+
+    </div>
 
   </section>
 
   <!-- FOOTER -->
 
   <footer>
-    <p>© 2026 Fareena Portfolio</p>
+
+    <div class="social-icons">
+
+      <a href="https://github.com/fareenak222-create" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/fareena-khan-1bb7a0410/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.upwork.com/freelancers/~01e88b0730694c8b6f?mp_source=share" target="_blank">
+        <i class="fas fa-briefcase"></i>
+      </a>
+
+    </div>
+
+    <p>© 2026 Fareena Khan | Front-End Developer</p>
+
   </footer>
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
