@@ -39,7 +39,8 @@ Download resume from the website (Hero section button).
 ---
 
 ## 🌐 Live Website
-((https://github.com/fareenak222-create))
+(https://fareenak222-create.github.io/Portfolio/
+)
 
 ---
 
